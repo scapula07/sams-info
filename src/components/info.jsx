@@ -15,11 +15,11 @@ export default function Info() {
             <div className='flex flex-col'>
                     <img 
                     src={email}
-                    className="w-3/4"
+                    className="w-56"
                     />
                     <img 
                     src={phone}
-                    className="w-3/4"
+                    className="w-44"
                     />
 
 

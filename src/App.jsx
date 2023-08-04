@@ -22,15 +22,19 @@ function App() {
             <Header />
           </div>
 
-          <div className='w-full relative'>
+          <div className='w-full relative' style={{height:"1000px"}}>
               <img
                 src={hero}
+                className="w-full h-full"
                />
-               <div className='absolute z-20 top-0 h-full flex px-56  '>
-                  {/* <button className='bg-black px-8 py-2 text-white h-56'>
-                     BOOK APPOINTMENT
-                     
-                  </button> */}
+               <div className='absolute z-20 top-0 h-full flex px-56  w-full'>
+                <div  className=' px-8 py-2 text-white h-56 relative top-80 flex mt-40'>
+                    <button className='bg-black px-8 py-2 text-white h-12 relative'>
+                        BOOK APPOINTMENT
+                        
+                      </button>
+                </div>
+                 
 
                </div>
 

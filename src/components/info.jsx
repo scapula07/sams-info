@@ -6,13 +6,13 @@ import phone from "../assets/Phone.png"
 export default function Info() {
   return (
     <div className='w-full flex justify-center'>
-        <div className='flex items-center'>
+        <div className='flex space-x-8 h-36'>
             <img 
               src={address}
-              className="w-3/4"
+              className="w-80 h-full"
             />
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col justify-between h-full py-2.5'>
                     <img 
                     src={email}
                     className="w-56"

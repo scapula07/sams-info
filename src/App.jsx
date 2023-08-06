@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/header'
-import hero from "./assets/hero.png"
+import hero from "./assets/headerqm.png"
 import about from "./assets/aboutus.png"
 import Services from './components/services'
 import Project from './components/project'
@@ -27,7 +27,7 @@ function App() {
                 src={hero}
                 className="w-full h-full"
                />
-               <div className='absolute z-20 top-0 h-full flex px-56  w-full'>
+               {/* <div className='absolute z-20 top-0 h-full flex px-56  w-full'>
                 <div  className=' px-8 py-2 text-white h-56 relative top-80 flex mt-40'>
                     <button className='bg-black px-8 py-2 text-white h-12 relative'>
                         BOOK APPOINTMENT
@@ -36,7 +36,7 @@ function App() {
                 </div>
                  
 
-               </div>
+               </div> */}
 
           </div>
 

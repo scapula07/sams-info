@@ -22,7 +22,7 @@ function App() {
             <Header />
           </div>
 
-          <div className='w-full relative' style={{height:"1000px"}}>
+          <div className='w-full relative' style={{height:"800px"}}>
               <img
                 src={hero}
                 className="w-full h-full"

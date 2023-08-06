@@ -9,7 +9,7 @@ import Services from './components/services'
 import Project from './components/project'
 import Contact from './components/contact'
 import Testimonials from './components/testimonials'
-import footer from "./assets/footerqm.png"
+import footer from "./assets/qmfooter.png"
 import Info from './components/info'
 
 

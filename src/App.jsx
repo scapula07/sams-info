@@ -11,7 +11,7 @@ import Contact from './components/contact'
 import Testimonials from './components/testimonials'
 import footer from "./assets/footer2.png"
 import Info from './components/info'
-import contact from "./assets/contactimg.png"
+import contact from "./assets/contact2.png"
 
 
 function App() {

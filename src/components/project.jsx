@@ -1,18 +1,16 @@
 import React from 'react'
-import project from "../assets/project.png"
+import project from "../assets/project2.png"
 export default function Project() {
   return (
-    <div className='flex items-center flex-col w-full space-y-7 py-16 px-20'> 
-    <div className='flex flex-col space-y-1 items-center'>
-       <h5 className='text-4xl font-semibold '>Our projects</h5>
-    </div>
+    
 
-    <div className='w-1/2'>
+    <div className='w-full flex justify-center'>
         <img
           src={project}
+          className="w-11/12"
          />
 
     </div>
-</div>
+
   )
 }

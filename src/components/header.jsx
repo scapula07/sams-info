@@ -11,7 +11,7 @@ export default function Header() {
              />
       
             <div className='flex items-center space-x-10 ' style={{color:"rgba(4, 34, 105, 1)"}}>
-                <h5 className='text-sm font-semibold text-white px-6 py-1 '>Home</h5>
+                <h5 className='text-sm font-semibold  px-6 py-1 '>Home</h5>
                 <h5 className='text-sm font-semibold'>About Us</h5>
                 <h5 className='text-sm font-semibold'>Services</h5>
                 <h5 className='text-sm font-semibold'>Testimonials</h5>

@@ -3,7 +3,7 @@ import logo from "../assets/samslogo.png"
 
 export default function Header() {
   return (
-     <div className='w-full flex items-center justify-between px-28 bg-white '>
+     <div className='w-full flex items-center justify-between px-28 bg-white py-4 '>
        
             <img
              src={logo}

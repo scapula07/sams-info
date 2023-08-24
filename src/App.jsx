@@ -28,8 +28,8 @@ function App() {
                 src={hero}
                 className="w-full h-full"
                />
-               <div className='absolute z-20 top-0 h-full w-full flex flex-col space-y-6 justify-center px-44'>
-                    <div className='text-4xl font-semibold' style={{color:"rgba(4, 34, 105, 1)"}}>
+               <div className='absolute z-20 top-0 h-full w-full flex flex-col space-y-6 justify-center px-44 bg-black opacity-70'>
+                    <div className='text-6xl font-semibold' style={{color:"rgba(4, 34, 105, 1)"}}>
                        HVAC solutions
                        <br></br>
                        for everyone
